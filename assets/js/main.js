@@ -17,21 +17,13 @@ for (let i = 0; i < 5; i++) {
 console.log(userNum);
 
 // controlla se i numeri nell'userNum sono contenuti nel botNums e quante volte
+let n = 0;
 userNum.forEach(element => {
     if (botNums.includes(element)) {
-        console.log('il numero inserito è corretto');
-    } else {
-        console.log('non è corretto');
+        n++;
     }
 });
-
-/* for (let i = 0; i < userNum.length; i++) {
-    const element = userNum[i];
-    if (botNums.includes(element)) {
-        console.log('Si, il numero è corretto');
-    }
-
-} */
+console.log(`Hai indovinato ${n} numeri`);
 
 function randomNum(max, min, nloop) {
     const randomNumArray = []; //creo array dove vado ad inserire i num
