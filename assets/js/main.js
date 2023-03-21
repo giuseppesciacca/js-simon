@@ -28,7 +28,7 @@ setTimeout(() => {
     console.log(`Hai indovinato ${numChecked} numeri`);
 
     resultEl.innerText = `Hai indovinato ${numChecked} numeri`;
-}, 30000);
+}, 30100);
 
 /* FUNCTIONS */
 function randomNum(max, min, nloop) {
