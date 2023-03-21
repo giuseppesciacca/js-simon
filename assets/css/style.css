@@ -1,0 +1,9 @@
+.d_none {
+    display: none;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+}
